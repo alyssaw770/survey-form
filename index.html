@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking to time to complete this survey.</p>
+    <form id="survey-form">
+      <fieldset class="info">
+      <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required> </label>
+        <label id="email-label">Email <input id="email" type="email"  placeholder="Enter your email" required> </label>
+          <label id="number-label">Age <input type="number" id="number" max="120" min="13" placeholder="Age" ></label>
+          </fieldset>
+          <fieldset>
+          <label class="genre"> What genre would you like to read for the book club?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Ficton</option>
+            <option value="2">Non-Fiction</option>
+            <option value="3">Romance</option>
+            <option value="4">Sci-Fi</option>
+            <option value="5">Other</option>
+          </select>
+          <br>
+          </label>
+          
+  <label class="recommendation" name="referel" for="rec">Would you recommend us to a friend?
+    <br>
+    <input id="referel-label" type="radio" name="rec" value="yes">
+    Yes</label>
+<br>
+  <label>
+    <input id="referel-label" type="radio" name="rec" value="no">
+    No</label>
+</fieldset>
+<fieldset>
+   <label name="activites">What activites would you like to see?
+     <br>
+     <input type="checkbox" value="1"> Monthly Discussion</label>
+<br>
+  <label class="activities">
+    <input type="checkbox" value="2">Weekly Meetups</label>
+</fieldset>
+<fieldset>
+<label class="additional-comments">Please leave any additionl ideas that would help the book club. <textarea></textarea></label>
+</fieldset>
+<div class="container">
+<input type="submit" id="submit">
+<div>
+    </form>
+    <body>
+  <html>
